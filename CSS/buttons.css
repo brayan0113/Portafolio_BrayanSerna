@@ -1,0 +1,26 @@
+.button {
+    background: var(--greenBlue);
+    color: var(--black);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border: 2px solid var(--black);
+    font: var(--button);
+    text-transform: uppercase;
+    border-radius: 90px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button.btn2 {
+    background: unset;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.button:active {
+    transform: scale(.9);
+}

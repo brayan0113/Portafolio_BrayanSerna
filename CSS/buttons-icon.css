@@ -1,0 +1,16 @@
+.buttons-icon {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--black);
+    background: var(--fuchsia);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buttons-icon img {
+    vertical-align: middle;
+}
+
+.buttons-icon:active {
+    transform: scale(.9);
+}

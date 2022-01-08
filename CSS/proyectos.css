@@ -1,0 +1,117 @@
+.proyectos {
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.proyectos_image img {
+  max-inline-size: 100%;
+}
+
+.proyectos_description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-block-start: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .proyectos {
+    display: flex;
+    align-items: center;
+    padding-block-start: 100px;
+    padding-block-end: 80px;
+    gap: 24px;
+  }
+  .botones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 400px;
+  }
+  .proyectos_description {
+    max-inline-size: 385px;
+  }
+  .proyectos_description p {
+    width: 345px;
+  }
+  .proyectos:nth-child(odd) .proyectos_image {
+    order: 2;
+    text-align: center;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .proyectos {
+    display: flex;
+    align-items: center;
+    padding-block-start: 100px;
+    padding-block-end: 80px;
+    gap: 24px;
+  }
+  .botones {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+  }
+  .proyectos_description {
+    max-inline-size: 450px;
+  }
+  .proyectos:nth-child(odd) .proyectos_image {
+    order: 2;
+    text-align: center;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .proyectos {
+    display: flex;
+    align-items: center;
+    padding-block-start: 100px;
+    padding-block-end: 80px;
+    gap: 24px;
+  }
+  .botones {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+  }
+  .proyectos_description {
+    max-inline-size: 450px;
+  }
+  .proyectos:nth-child(odd) .proyectos_image {
+    order: 2;
+    text-align: center;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .proyectos {
+    display: flex;
+    align-items: center;
+    padding-block-start: 100px;
+    padding-block-end: 80px;
+    gap: 24px;
+  }
+  .botones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .proyectos_description {
+    max-inline-size: 450px;
+  }
+  .proyectos:nth-child(odd) .proyectos_image {
+    order: 2;
+    text-align: center;
+    flex: 1;
+  }
+}

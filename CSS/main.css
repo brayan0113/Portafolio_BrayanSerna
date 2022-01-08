@@ -1,0 +1,140 @@
+@import "./buttons.css";
+@import "./buttons-icon.css";
+@import "./title.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./comentario.css";
+@import "./proyectos.css";
+@import "./testimonios.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./formulario.css";
+@import "./normalize.css";
+:root {
+  --fuenteBase: "Oxygen", sans-serif;
+  --headline1: bold 95px/153.71px var(--fuenteBase);
+  --headline2: bold 59px/95px var(--fuenteBase);
+  --headline3: bold 48px/77px var(--fuenteBase);
+  --headline4: bold 34px/55px var(--fuenteBase);
+  --headline5: bold 24px/38px var(--fuenteBase);
+  --headline6: bold 16px/26px var(--fuenteBase);
+  --body1: 16px/25px var(--fuenteBase);
+  --body2: 14px/22px var(--fuenteBase);
+  --paragraph: 34px/55px var(--fuenteBase);
+  --button: bold 14px/22px var(--fuenteBase);
+  --caption: bold 12px/19px var(--fuenteBase);
+  --degradado: linear-gradient(135deg, #00c2ff 0%, #304196 52.6%, #61159c 100%);
+  --fuchsia: #ef5da8;
+  --greenBlue: #42e2b8;
+  --gray: #858c94;
+  --black: #000;
+  --white: #ffffff;
+}
+
+.debug {
+  border: 5px solid #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--degradado);
+  min-height: 100vh;
+  font: var(--body1);
+  color: var(--black);
+}
+
+.wrapperComent {
+  max-inline-size: 900px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  margin: auto;
+}
+
+body::-webkit-scrollbar {
+  background-image: linear-gradient(
+    135deg,
+    #00c2ff 0%,
+    #304196 52.6%,
+    #61159c 100%
+  );
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0f0a0a;
+}
+
+@media screen and (min-width: 1024px) {
+  .circle2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -180px;
+    top: 68px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff00a480 0%,
+      rgba(72, 15, 52, 0) 100%
+    );
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 377px;
+    top: 344px;
+    background: radial-gradient(
+      155% 155% at 50% 50%,
+      rgba(40, 234, 232, 0.4) 0%,
+      rgba(40, 234, 232, 0) 28.86%
+    );
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 1554px;
+    background: radial-gradient(
+      155% 155% at 50% 50%,
+      #ff00bf66 0%,
+      rgba(40, 234, 232, 0) 28.86%
+    );
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 814px;
+    top: 2690px;
+    background: radial-gradient(
+      155% 155% at 50% 50%,
+      #00fffb66 0%,
+      rgba(40, 234, 232, 0) 28.86%
+    );
+    z-index: -1;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -90px;
+    top: 3490px;
+    background: radial-gradient(
+      155% 155% at 50% 50%,
+      #ff00f2 0%,
+      rgba(40, 234, 232, 0) 28.86%
+    );
+    z-index: -1;
+  }
+}
+
+/*  Medidas: 768px, 1024px, 1280px, 1366px*/

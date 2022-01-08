@@ -1,0 +1,22 @@
+.wrapper {
+  max-inline-size: 1125px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-inline-size: 900px;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .wrapper {
+    max-inline-size: 1125px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    margin: auto;
+  }
+}

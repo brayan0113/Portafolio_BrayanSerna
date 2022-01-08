@@ -1,0 +1,31 @@
+.comentario {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+.comentario p {
+  font: var(--paragraph);
+}
+
+.comentario span {
+  font: var(--headline5);
+}
+
+.comentario_icon {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .comentario {
+    padding-block-end: 200px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .comentario {
+    padding-block-start: 200px;
+  }
+}
