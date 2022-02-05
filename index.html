@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2d8fbf217c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/main.css" />
 </head>
 
@@ -36,26 +37,29 @@
                             height=""></a>
                 </div>
                 <!-- Menu de navegación -->
-                <nav class="menu">
+                <div id="back-menu"></div>
+                <i class="fas fa-bars" id="btn_i"></i>
+                <nav class="menu" id="nav">
+
                     <ul>
                         <li>
-                            <a class="active" href="#main">Inicio</a>
+                            <i class="fas fa-home"></i><a class="active" href="#main">Inicio</a>
                         </li>
                         <li>
-                            <a href="#proyectos">Proyectos</a>
+                            <i class="fas fa-briefcase"></i><a href="#proyectos">Proyectos</a>
                         </li>
                         <li>
-                            <a href="#contact">Contacto</a>
+                            <i class="fas fa-address-book"></i><a href="#contact">Contacto</a>
                         </li>
                     </ul>
                 </nav>
                 <!-- Botón ede Curriculum -->
-                <button class="button">
+                <!-- <button class="button">
                     <a target="_blank" href="./CV Brayan Serna.pdf" download="CV_Brayan.pdf">
                         <span class="button_download">Descargar</span>
                         <span>Curriculum</span>
                     </a>
-                </button>
+                </button> -->
             </div>
         </div>
     </header>
@@ -125,40 +129,24 @@
             </div>
         </div>
 
-        <div class="testimony">
-            <img src="./Img/Brayan.png1.png" alt="Imagen del Fundador de FrontSoft">
-            <p class="testimony_text">"Brayan fue de gran ayuda para la creación de nuestro sitio, dándonos todo el
-                soporte y garantía a su
-                trabajo".</p>
-            <p class="testimony_text2">Brayan Serna / FUNDADOR Y CEO FrontSoft.COM</p>
-        </div>
-
         <!-- Proyecto 2 -->
         <div class="proyectos">
             <div class="proyectos_image">
                 <img src="./Img/iPad.png" alt="Imagen del sitio web en un iPad" width="" height="" />
             </div>
             <div class="proyectos_description">
-                <a class="title" target="_blank" href="#">FrontSoft.com</a>
+                <a class="title" target="_blank" href="#">Song.com</a>
                 <p>
-                    Nos dedicamos a realizar todo tipo de software, él limite esta en tu
-                    imaginación
+                    Escucha toda tu música favorita con nuestra app web Song
                 </p>
                 <div class="botones">
-                    <a target="_blank" href="./index.html" class="button">Ver proyecto</a>
-                    <a target="_blank" rel="noopener" href="https://github.com/brayan0113" class="button btn2"><img
+                    <a target="_blank" href="https://brayan0113.github.io/Song/" class="button">Ver proyecto</a>
+                    <a target="_blank" rel="noopener" href="https://github.com/brayan0113/Song" class="button btn2"><img
                             src="./Icon/icon-github.svg " alt="Ir al github de Brayan" /> Ver código</a>
                 </div>
             </div>
         </div>
 
-        <div class="testimony">
-            <img src="./Img/Brayan.png1.png" alt="Imagen del Fundador de FrontSoft">
-            <p class="testimony_text">"Brayan fue de gran ayuda para la creación de nuestro sitio, dándonos todo el
-                soporte y garantía a su
-                trabajo".</p>
-            <p class="testimony_text2">Brayan Serna / FUNDADOR Y CEO FrontSoft.COM</p>
-        </div>
 
         <!-- Proyecto 3-->
         <div class="proyectos">
@@ -172,19 +160,12 @@
                     imaginación
                 </p>
                 <div class="botones">
-                    <a target="_blank" href="./index.html" class="button">Ver proyecto</a>
+                    <a target="_blank" href="./index.html" class="button"> oyecto</a>
                     <a target="_blank" rel="noopener" href="https://github.com/brayan0113" class="button btn2"><img
                             src="./Icon/icon-github.svg " alt="Ir al github de Brayan" width="" height="" />
                         Ver código</a>
                 </div>
             </div>
-        </div>
-        <div class="testimony">
-            <img src="./Img/Brayan.png1.png" alt="Imagen del Fundador de FrontSoft">
-            <p class="testimony_text">"Brayan fue de gran ayuda para la creación de nuestro sitio, dándonos todo el
-                soporte y garantía a su
-                trabajo".</p>
-            <p class="testimony_text2">Brayan Serna / FUNDADOR Y CEO FrontSoft.COM</p>
         </div>
 
         <!-- Formulario -->
@@ -242,7 +223,7 @@
         </footer>
     </div>
 
-    <script src="./Js/main.js"></script>
+    <script src="./Js/nav.js"></script>
 </body>
 
 </html>

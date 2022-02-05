@@ -11,26 +11,44 @@
   block-size: 80px;
   padding-block-start: 13px;
 }
-.logo{
-  width:100px;
+.logo {
+  width: 100px;
   height: 80px;
 }
 .logo img {
   filter: drop-shadow(4px 4px 6px #000);
-  width:100%;
+  width: 100%;
   height: 100%;
 }
-.button a{
-    text-decoration: none;
-    color: var(--black);
-    font: var(--button);
+#btn_i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(255, 255, 255, 0.1);
+  transition: 300ms;
+}
+#btn_i:hover {
+  background: rgba(150, 149, 149, 0.637);
+}
+/* .button a {
+  text-decoration: none;
+  color: var(--black);
+  font: var(--button);
 }
 .button_download {
   display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
-  .button .button_download {
-    display: contents;
+  #btn_i {
+    display: none;
   }
+  /* .button .button_download {
+    display: contents;
+  } */
 }
