@@ -43,7 +43,7 @@
 
                     <ul>
                         <li>
-                            <i class="fas fa-home"></i><a class="active" href="#main">Inicio</a>
+                            <i class="fas fa-home"></i><a id="margin" href="#main">Inicio</a>
                         </li>
                         <li>
                             <i class="fas fa-briefcase"></i><a href="#proyectos">Proyectos</a>
@@ -53,19 +53,12 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- Botón ede Curriculum -->
-                <!-- <button class="button">
-                    <a target="_blank" href="./CV Brayan Serna.pdf" download="CV_Brayan.pdf">
-                        <span class="button_download">Descargar</span>
-                        <span>Curriculum</span>
-                    </a>
-                </button> -->
             </div>
         </div>
     </header>
     <div class="wrapper" id="main">
         <!-- Hero(img, títulos, párrafo y btns.) -->
-        <section class="hero">
+        <section class="hero" id="top">
             <div class="hero_imagen">
                 <img src="./Img/BrayanPC.png" alt="Logo de FrontSoft" width="" height="" />
             </div>
@@ -147,27 +140,6 @@
             </div>
         </div>
 
-
-        <!-- Proyecto 3-->
-        <div class="proyectos">
-            <div class="proyectos_image">
-                <img src="./Img/IphoneX.png" alt="Imagen del sitio web en un Iphone" width="" height="" />
-            </div>
-            <div class="proyectos_description">
-                <a class="title" target="_blank" href="#">FrontSoft.com</a>
-                <p>
-                    Nos dedicamos a realizar todo tipo de software, él limite esta en tu
-                    imaginación
-                </p>
-                <div class="botones">
-                    <a target="_blank" href="./index.html" class="button"> oyecto</a>
-                    <a target="_blank" rel="noopener" href="https://github.com/brayan0113" class="button btn2"><img
-                            src="./Icon/icon-github.svg " alt="Ir al github de Brayan" width="" height="" />
-                        Ver código</a>
-                </div>
-            </div>
-        </div>
-
         <!-- Formulario -->
         <form action="mailto:bryanserna0113@gmail.com" method="post" enctype="text/plain" class="formulario"
             id="contact">
@@ -182,12 +154,19 @@
                     <p class="form_text">Nombre completo<span>*</span></p>
                     <input name="name" id="form_name" type="text" required placeholder="Nombre" />
                 </label>
+
+                <label for="form_tel">
+                    <p class="form_text">Teléfono<span>*</span></p>
+                    <input name="tel" id="form_tel" type="tel" required placeholder="+573146107188" />
+                </label>
+
                 <label for="form_email">
                     <p class="form_text">
                         Correo Electrónico<span>*</span></p>
                     </p>
                     <input name="email" id="form_email" type="email" required placeholder="@gmail.com" />
                 </label>
+
                 <label for="form_message">
                     <p class="form_text">Mensaje<span>*</span></p>
                     <textarea name="message" id="form_message" cols="30" rows="7" required
